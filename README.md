@@ -35,8 +35,9 @@ public static void main(String[] args) {
 
 Co se nám vypíše do konzole, když spustíme tuhle main metodu a proč?
 ```java
+private static int pocetNakoupenychDarku;
+
 public static void main(String[] args) {
-  int pocetNakoupenychDarku;
   System.out.println(pocetNakoupenychDarku);
 }
 ```
@@ -50,7 +51,7 @@ String maNejoblibenejsiBarva;
 
 ## 7.)
 
-Co se stane, když spustíme tuhle main matodu a proč?
+Co se stane, když spustíme tuhle main metodu a proč?
 ```java
 public static void main(String[] args) {
   int pocetDomuVPraze = 3;
